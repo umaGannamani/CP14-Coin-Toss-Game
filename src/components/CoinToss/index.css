@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.bg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#f9d423, #e2a139);
+    min-height: 100vh;
+}
+.app-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    min-width: 50%;
+    min-height: 500px;
+}
+.heading {
+    color: #a35200;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.paragraph {
+    color :#334155;
+    font-size: 20px;
+    font-family: "Roboto";
+    text-align: center;
+}
+.image {
+    width: 100px;
+    height: 100px;
+}
+.button {
+    color: #a35200;
+    background-color: #f9d423;
+    min-width: 80px;
+    min-height: 25px;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+.count-container {
+    display: flex;
+    justify-content: space-around;
+    min-width: 50%;
+}
+.count {
+    color:#475569;
+    font-size: 15px;
+    font-family: "Roboto";
+}
